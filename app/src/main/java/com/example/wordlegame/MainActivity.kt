@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
             guessinput.setTextColor(ContextCompat.getColor(guessinput.context, R.color.black))
             guessinput.setBackgroundColor(ContextCompat.getColor(guessinput.context, R.color.white))
 
-            guessdisplay1 = findViewById<TextView>(R.id.outputG1)
+            guessinput.setText(" ")
             guessdisplay1.setText(" ")
             guesscheckdisplay1.setText(" ")
             guessdisplay2.setText(" ")
